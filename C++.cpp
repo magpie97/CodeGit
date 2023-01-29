@@ -2,9 +2,6 @@
 
 int main()
 {
-    std::cout << " Teating" << std::endl;
-    std::cout << "one more" << std::endl;
-    std::cout << "new print string" << std::endl;
-    std::cout << "branch is main" << std::endl;
+    std::cout << "my Git space" << std::endl;
     return 0;
 }
