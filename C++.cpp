@@ -36,4 +36,3 @@ vector<int> solution(vector<int> num_list)
      * 반복문을 제거 후 reverse 함수로 초기화 된 num_list 매개변수를 리턴 했다
      * 테스트 후 결과는 문제없이 통과 했다
     */
-   

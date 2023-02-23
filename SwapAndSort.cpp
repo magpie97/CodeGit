@@ -34,8 +34,6 @@ void Sort(int numbers[], int count)
                 Swap(numbers[i], numbers[best]);
 
         }
-
-
     }
 
     
@@ -51,6 +49,7 @@ int main()
     // 높은 차순으로 나열할 배열
     int numbers[6] = {1, 4, 2, 5, 3, 6};
 
+    
     Sort(numbers, sizeof(numbers) / sizeof(int));
 
 
