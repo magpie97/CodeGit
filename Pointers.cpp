@@ -6,14 +6,13 @@ using namespace std;
 
 void SetNumber(int* a)
 {
-    *a = 1;
+    a = 1;
 
 }
 
-void SetMessage(const char* a)
+void SetMessage(const char** a)
 {
-    a = "Bye";
-
+    *a = "Bye";
 
 }
 
@@ -27,6 +26,13 @@ int main()
 
     SetMessage(msg);
 
+    const char** pp = &msg;
+
+    SetMessage(&msg);
+
+    *pp = "Bye";
+
+    cout << msg << endl;
 
     return 0;
 }
